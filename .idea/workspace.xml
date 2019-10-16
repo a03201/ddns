@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="21fb8714-81da-471d-8cec-9bbd11c1a649" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="ProjectId" id="1Rs66O2cL8J6F0Sv8PgRr5ZqMkS" />
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/common" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/common" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/common" />
+      <recent name="$PROJECT_DIR$/script" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/cmd/ddns_server" />
+      <recent name="$PROJECT_DIR$/src/cmd/ddns_client" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Build.go build auto_ddns/src/cmd/ddns_server">
+    <configuration name="go build auto_ddns/src/cmd/ddns_client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="auto_ddns" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/src/cmd/ddns_client/main.go" />
+      <package value="auto_ddns/src/cmd/ddns_client" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build auto_ddns/src/cmd/ddns_server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="auto_ddns" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <package value="auto_ddns/src/cmd/ddns_server" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="auto_ddns" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/cmd/ddns_server/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestGetCurrentExternalIP in auto_ddns/src/common" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="auto_ddns" />
+      <working_directory value="$PROJECT_DIR$/src/common" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="auto_ddns/src/common" />
+      <pattern value="^TestGetCurrentExternalIP$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestTes in auto_ddns/src/common" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="auto_ddns" />
+      <working_directory value="$PROJECT_DIR$/src/common" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="auto_ddns/src/common" />
+      <pattern value="^TestTes$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build auto_ddns/src/cmd/ddns_client" />
+        <item itemvalue="Go Build.go build auto_ddns/src/cmd/ddns_server" />
+        <item itemvalue="Go Build.go build main.go (1)" />
+        <item itemvalue="Go Test.TestTes in auto_ddns/src/common" />
+        <item itemvalue="Go Test.TestGetCurrentExternalIP in auto_ddns/src/common" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

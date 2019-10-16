@@ -1,0 +1,21 @@
+{
+  "dnspodx":
+  {
+    "id": "119549",
+    "token": "b4e0802e0a92787f383bfbe8e8c69f76",
+    "domain": "grouk.com",
+    "sub_domain": "mac"
+  },
+  "cloudflare":
+  {
+    "username": "a03201@gmail.com",
+    "token": "47b16fcebd6bcc169771d6687cc1b51d677c2",
+    "domain": "hz1555.tk",
+    "sub_domain": "home"
+  },
+  "config":
+  {
+    "server": "103.19.2.78:8888",
+    "server1": "127.0.0.1:8888"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "dnspod":
+  {
+    "id": "111149",
+    "token": "b34523245eq243231534576",
+    "domain": "google.com",
+    "sub_domain": "test"
+  },
+  "cloudflare":
+  {
+    "username": "3453245@gmail.com",
+    "token": "479939393933169771d6687cc1b51d677c2",
+    "domain": "seek.tk",
+    "sub_domain": "test"
+  },
+  "config":
+  {
+    "server": "103.19.2.78:8888",
+    "server1": "127.0.0.1:8888"
+  }
+}

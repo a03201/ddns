@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> Chat Test  </title>
+  <link rel="stylesheet" href="/public/css/bootstrap.min.css">
+  <style>
+#chat-messages {
+    height: 350px;
+    width: 100%;
+    overflow-y: scroll;
+}
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#" >chat server<i class="glyphicon glyphicon-bullhorn"></i></a>
+    </div>
+  </nav>
+  <div class="container" id="app">
+          <nav class="navbar navbar-light  justify-content-between">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit" v-text="wsstatus"></button>
+          </nav>
+          <div class="row justify-content-center" style="padding-bottom:21px;">
+              <div class="col col-3"><a href="#" v-for="user in users" v-text="user.Name" v-on:click="setpl(user.Name)" class="list-group-item list-group-item-action list-group-item-danger"></a></div>
+              <div class="col col-7">
+              <div class="col">
+                  <div class="card horizontal">
+                      <div id="chat-messages" style="font-size:10px;" class="card-content" v-html="logflow">
+                          <img src="#.jpg" height="350px" width="300px">
+                      </div>
+                  </div>
+              </div>
+              <div class="input-group col">
+                  <input type="text" class="form-control" v-model="msg" @keyup.enter="sendmessage" :placeholder="plvalue" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                  <div class="input-group-append">
+                      <button class="btn btn-outline-primary" v-on:click="sendmessage" type="button">Send</button>
+                  </div>
+              </div>
+              </div>
+
+          </div>
+
+
+
+
+  </div>
+
+</body>
+
+<script src="/public/vue.js"></script>
+<script src="/public/vue-resource.js"></script>
+<script src="/public/chat.js"></script>
+</html>

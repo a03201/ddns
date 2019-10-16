@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Server Status  </title>
+    <link rel="stylesheet" href="/public/css/bootstrap.min.css">
+    <style>
+        #chat-messages {
+            height: 350px;
+            width: 100%;
+            overflow-y: scroll;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#" >Server<i class="glyphicon glyphicon-bullhorn"></i></a>
+    </div>
+</nav>
+<div class="container" id="app">
+    <nav class="navbar navbar-light  justify-content-between">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit" v-text="wsstatus"></button>
+        <form class="form-inline">
+            <a class="navbar-brand" v-text="stat.file"></a>
+        </form>
+    </nav>
+    <div class="row justify-content-center" style="padding-bottom:21px;">
+        <div class="col col-7">
+            <div class="card horizontal">
+                <div id="chat-messages" style="font-size:10px;" class="card-content" v-html="logflow">
+                    <img src="#.jpg" height="350px" width="300px">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-5">
+            <div class="card">
+                <div class="card-header">
+                    <nav class="navbar navbar-light bg-light justify-content-between">
+                        <a class="navbar-brand">Client List</a>
+                    </nav>
+                </div>
+                <div class="card-body"><a href="#" v-for="user in users" v-text="user.Name" class="list-group-item"></a></div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+
+<script src="/public/vue.js"></script>
+<script src="/public/vue-resource.js"></script>
+<script src="/public/app.js"></script>
+</html>
